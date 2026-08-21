@@ -5,3 +5,9 @@ venv/
 env/
 .vscode/
 .DS_Store
+
+# AP deductions workflow artifacts (never commit vendor data)
+working/
+backups/
+*.xlsx
+*.xlsm
