@@ -1,0 +1,84 @@
+{
+  "master_file": "~/Downloads/master.xlsx",
+  "master_sheet": "",
+  "work_dir": "working",
+  "work_file_prefix": "deductions",
+  "vendors": [
+    "ACME CORP",
+    "GLOBEX",
+    "INITECH"
+  ],
+  "vendor_match": "contains",
+  "complete_values": [
+    "complete",
+    "completed",
+    "done",
+    "yes",
+    "y",
+    "x",
+    "closed",
+    "\u2713"
+  ],
+  "stamp_completed_date": true,
+  "columns": {
+    "vendor": [
+      "vendor",
+      "vendor name",
+      "vendor id",
+      "supplier",
+      "supplier name",
+      "payee",
+      "customer",
+      "customer name",
+      "account name"
+    ],
+    "invoice": [
+      "invoice",
+      "invoice #",
+      "invoice no",
+      "invoice no.",
+      "invoice number",
+      "inv #",
+      "inv no",
+      "document",
+      "document no",
+      "doc no",
+      "doc number",
+      "reference",
+      "ref",
+      "deduction #",
+      "deduction number",
+      "claim",
+      "claim #",
+      "chargeback #"
+    ],
+    "amount": [
+      "amount",
+      "invoice amount",
+      "deduction amount",
+      "open amount",
+      "net amount",
+      "balance",
+      "value",
+      "amt"
+    ],
+    "date": [
+      "date",
+      "invoice date",
+      "doc date",
+      "document date",
+      "deduction date",
+      "posting date",
+      "due date"
+    ],
+    "completed": [
+      "completed",
+      "completed on",
+      "date completed",
+      "completion date",
+      "cleared",
+      "resolved",
+      "status"
+    ]
+  }
+}
